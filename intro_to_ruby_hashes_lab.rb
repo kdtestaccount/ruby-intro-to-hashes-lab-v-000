@@ -11,7 +11,7 @@ def monopoly
 end
 
 def monopoly_with_second_tier
-	monopoly[:railroads] = :pieces => 4
+	monopoly[:railroads][:pieces] => 4
 	puts monopoly
 end
 
@@ -30,3 +30,21 @@ end
 #  epic_tragedy[:montague][:patriarch][:name] = "Michael Jordan"
 
 monopoly_with_second_tier
+
+contacts["Jon Snow"][:address] = "The Lord Commander's Rooms, The Wall, Westeros"
+ 
+puts contacts
+  #  >
+  {
+    "Jon Snow" => {
+     :name=>"Jon",
+     :email=>"jon_snow@thewall.we",
+     :favorite_ice_cream_flavors=>["chocolate", "vanilla", "mint chip"],
+     :address=>"The Lord Commander's Rooms, The Wall, Westeros"
+    },
+    "Freddy Mercury"=> {
+     :name=>"Freddy",
+     :email=>"freddy@mercury.com",
+     :favorite_ice_cream_flavors=> ["cookie dough", "mint chip"]
+    }
+  }
