@@ -9,7 +9,7 @@ end
 
 
 def monopoly
-	monopoly = {:railroads => {}}
+	monopoly_hash = {:railroads => {}}
 end
 
 
