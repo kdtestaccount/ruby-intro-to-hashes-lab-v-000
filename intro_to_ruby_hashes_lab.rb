@@ -14,7 +14,8 @@ end
 
 
 def monopoly_with_second_tier
-	monopoly[:railroads][:pieces] = "kevin"
+  monopoly_hash = {:railroads => {}}
+	monopoly_hash[:railroads][:pieces] = "kevin"
 end
 
 
