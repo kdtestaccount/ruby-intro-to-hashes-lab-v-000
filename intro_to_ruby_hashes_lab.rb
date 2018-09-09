@@ -26,8 +26,6 @@ end
 
 
 
-#  epic_tragedy[:montague][:patriarch][:name] = "Michael Jordan"
-
 monopoly_with_second_tier
 puts monopoly
 
